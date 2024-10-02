@@ -26,7 +26,7 @@ body {
 .content::before {
     content: "";
     position: absolute;
-    background-color: #58af9b;
+    background-color:hsl(212, 40%, 12%);
     width: 40%;
     height: 100%;
     border-top-left-radius: 15px;
@@ -41,10 +41,10 @@ body {
     text-transform: capitalize;
 }
 .title-primary {
-    color: #fff;
+    color: #be3144;
 }
 .title-second {
-    color: #58af9b;
+    color: #be3144;
 }
 .description {
     font-size: 14px;
@@ -71,23 +71,24 @@ body {
     margin-top: 1rem;
 }
 .btn-primary {
-    background-color: transparent;
+    background-color: #be3144;
     border: 1px solid #fff;
     transition: background-color .5s;
 }
 .btn-primary:hover {
     background-color: #fff;
-    color: #58af9b;
+    color:#be3144;
+    border-color: #be3144;
 }
 .btn-second {
-    background-color: #58af9b;
-    border: 1px solid #58af9b;
+    background-color: #be3144;
+    border: 1px solid #fff;
     transition: background-color .5s;
 }
 .btn-second:hover {
     background-color: #fff;
-    border: 1px solid #58af9b;
-    color: #58af9b;
+    border: 1px solid #be3144;
+    color: #be3144;
 }
 .first-content {
     display: flex;
@@ -116,9 +117,9 @@ body {
     transition: background-color .5s;
 }
 .link-social-media:hover .item-social-media{
-    background-color: #58af9b;
+    background-color:#be3144;
     color: #fff;
-    border-color: #58af9b;
+    border-color: #fff;
 }
 .list-social-media {
     display: flex;
