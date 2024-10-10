@@ -1,12 +1,12 @@
 @media screen and (max-width: 998px) {
-    .headline{
-        flex: 100%;
-        margin: 5%;
-        text-align: center;
-    }
-    .headline p{
-        text-align: center;
-    }
+  .headline{
+      flex: 100%;
+      margin: 5%;
+      text-align: center;
+  }
+  .headline p{
+      text-align: center;
+  }
 }
 @media screen and (min-width: 768px) {
 
@@ -17,164 +17,190 @@
 @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600&display=swap");
 
 :root {
-    --dark-color: hsl(212, 40%, 12%);
-    --white-color: hsl(212, 4%, 95%);
-    --body-color: hsl(212, 42%, 15%);
-    --container-color: hsl(212, 42%, 20%);
-  
-    /*========== Font and typography ==========*/
-    /*.5rem = 8px | 1rem = 16px ...*/
-    --body-font: "Bai Jamjuree", sans-serif;
-    --h2-font-size: 1.25rem;
-    --normal-font-size: 1rem;
-  }
-  body {
-    font-family: var(--body-font);
-    font-size: var(--normal-font-size);
-    background-color: var(--body-color);
-    color: var(--white-color);
-   
-  }
+  --dark-color: hsl(212, 40%, 12%);
+  --white-color: hsl(212, 4%, 95%);
+  --body-color: hsl(212, 42%, 15%);
+  --container-color: hsl(212, 42%, 20%);
+
+  /*========== Font and typography ==========*/
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --body-font: "Bai Jamjuree", sans-serif;
+  --h2-font-size: 1.25rem;
+  --normal-font-size: 1rem;
+}
+body {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  background-color: var(--body-color);
+  color: var(--white-color);
+ 
+}
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-  }
-  a{
-    text-decoration: none;
-  color: white;
-  
-  }
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+color: white;
+
+}
 .descricao{
-  padding: 0 5rem 0 5rem;
+padding: 0 5rem 0 5rem;
 }
 
-  img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
-  #logo {
-    height: 100px; 
-    margin-right: auto; 
-    padding: 0;
-    width: 350px;
-    
-  }
-  li{
-    display: flex-end;
-    text-align: center;
-    align-items: center;
-    text-decoration: none;
-    list-style: none;
-  }
-  nav{
-    height: 100px;
-    width: 0;
-    min-width: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    margin: 0;
-    display: flex;
-  }
-  a{
-    position: relative;
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    font-size: 18px;
-    letter-spacing:0.5px;
-    padding: 0 10px;
-    display: flex-end;
-  }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+li{
+  display: flex-end;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+}
+nav{
+  height: 100px;
+  width: 0;
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  display: flex;
+ 
+}
+a{
+  position: relative;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 18px;
+  letter-spacing:0.5px;
+  padding: 0 10px;
+  display: flex-end;
+}
+.esquerda{
+  height: 450px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
   
-  a:after{
-    content: "";
-    position: absolute;
-    background-color:hsl(38, 92%, 58%) ;
-    height: 4px;
-    width: 100%;
-    left: 0;
-    width: 0;
-    bottom: -10px;
-    transition: 0.3s;
-  }
-  a:hover:after{
-    width: 100%;
+  direction: ltr;
+  display: flex;
+  text-align: justify;
+ justify-content: flex-start;
+}
+.esquerda p{
+  display: flex;
+  text-align: justify;
+ justify-content: flex-start;
+}
+.direita p{
+  display: flex;
+  text-align: justify;
+ justify-content: flex-end;
+}
+.direita{
+  height: 450px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
   
-  }
-  .esquerda{
-    height: 600px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    
-    direction: ltr;
-    display: flex;
-    text-align: justify;
-   justify-content: flex-start;
-  }
-  .esquerda p{
-    display: flex;
-    text-align: justify;
-   justify-content: flex-start;
-  }
-  .direita p{
-    display: flex;
-    text-align: justify;
-   justify-content: flex-end;
-  }
-  .direita{
-    height: 600px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    
-    direction: rtl;
-    display: flex;
-    text-align: justify;
-   justify-content: flex-start;
-  }
-  .headline h2{
-    font-weight: 900;
-    font-size: 20px;
-    padding: 0;
-    margin: 0;
-  }
-  .headline p{
-    text-align: left;
-    color: rgba(99,101,102,255);
-  }
-  .img-headline{
-    text-align: center;
-    background-color: hsl(212, 42%, 15%);
-  }
-  .img-headline img{
-    background-color: hsl(212, 42%, 15%);
-    max-width: 30rem;
-  }
+  direction: rtl;
+  display: flex;
+  text-align: justify;
+ justify-content: flex-start;
+}
+.headline h2{
+  font-weight: 900;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+}
+.headline p{
+  text-align: left;
+  color: rgba(99,101,102,255);
+}
+.img-headline{
+  text-align: center;
+  background-color: hsl(212, 42%, 15%);
+}
+.img-headline img{
+  background-color: hsl(212, 42%, 15%);
+  max-width: 30rem;
+}
 
-  .headline{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
+.headline{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-  section{
-    padding: 4rem 0 4rem 0;
-  }
+section{
+  padding: 4rem 0 4rem 0;
+}
 
-  .lista{
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
-    padding-top: 1rem;
-  }
-  .headd{
-    display: flex;
-    justify-content: space-between;
-    padding: 0 1rem 0 1rem;
-  }
+.lista{
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  padding-top: 1rem;
+}
+.cima{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem 0 1rem;
+  width: 100vw;
+}
+.fixo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem 0 2rem;
+  position: fixed;
+  background-color:  hsl(212, 42%, 15%);
+  height: 80px;
+  z-index: 1;
+}
+.list .links ul li a:after{
+  content: "";
+  position: absolute;
+  background-color:#be3144 ;
+  height: 4px;
+  width: 100%;
+  left: 0;
+  width: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+.list .links ul li a:hover:after{
+  width: 100%;
+}
+#logo {
+  height: 50px;
+  margin-right: auto;
+  padding: 0;
+  width: 180px;
+  margin-top: 30px;
+}
+.links ul {
+  display: flex;
+  list-style-type: none; /* Remove os marcadores da lista */
+  padding: 0; /* Remove o padding padrão */
+  margin: 0; /* Remove a margem padrão */
+}
+
+.links li {
+  display: flex; /* Se precisar alinhar os itens dentro do li */
+}
+
+.link {
+  margin-right: 15px; /* Espaçamento entre os links */
+  text-decoration: none; /* Remove o sublinhado */
+  color: inherit; /* Mantém a cor do texto do link */
+}
