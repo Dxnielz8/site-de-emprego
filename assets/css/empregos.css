@@ -83,7 +83,7 @@ a{
   display: flex-end;
 }
 .esquerda{
-  height: 450px;
+  height: 400px;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -105,7 +105,7 @@ a{
  justify-content: flex-end;
 }
 .direita{
-  height: 450px;
+  height: 400px;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -116,6 +116,14 @@ a{
   text-align: justify;
  justify-content: flex-start;
 }
+.direita img{
+  padding-right: 20px;
+  margin-left: 10px;
+}
+.esquerda img{
+  padding-left: 20px;
+  margin-right: 10px;
+}
 .headline h2{
   font-weight: 900;
   font-size: 20px;
@@ -125,10 +133,6 @@ a{
 .headline p{
   text-align: left;
   color: rgba(99,101,102,255);
-}
-.img-headline{
-  text-align: center;
-  background-color: hsl(212, 42%, 15%);
 }
 .img-headline img{
   background-color: hsl(212, 42%, 15%);
@@ -204,3 +208,64 @@ section{
   text-decoration: none; /* Remove o sublinhado */
   color: inherit; /* Mantém a cor do texto do link */
 }
+.pititi img{
+  padding: 0px 0px 0px 50px;
+}
+.file-input {
+  display: none; /* Oculta o input padrão */
+}
+
+.file-label {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF; /* Cor de fundo */
+  color: white; /* Cor do texto */
+  border-radius: 5px; /* Cantos arredondados */
+  cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+.file-label:hover {
+  background-color: #be3144; 
+  transition: 0.4s;/* Cor ao passar o mouse */
+}
+.file-upload {
+  margin-top: 20px; /* Espaço acima do input file */
+  text-align: center; /* Centraliza o botão de upload */
+}
+
+.img-headline {
+  display: flex; /* Permite o uso de flexbox */
+  justify-content: center; /* Centraliza a imagem */
+  margin-top: 20px; /* Espaço entre texto e imagem */
+}
+.link {
+  transition: filter 0.3s ease; /* Animação suave para a mudança de cor */
+}
+
+.link-container:hover .link {
+  filter: brightness(0) saturate(100%) invert(25%) sepia(100%) saturate(1200%) hue-rotate(335deg) brightness(95%) contrast(100%);
+}
+.link {
+  text-decoration: none; /* Remove o sublinhado padrão */
+  color: white; /* Cor do texto padrão */
+  position: relative; /* Para posicionar o pseudo-elemento */
+  transition: color 0.3s ease; /* Animação suave para a cor */
+}
+
+.link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px; /* Espessura da linha */
+  background: #be3144; /* Cor da linha */
+  left: 0;
+  bottom: -5px; /* Distância da linha para o texto */
+  transform: scaleX(0); /* Inicia invisível */
+  transition: transform 0.3s ease; /* Animação para a linha */
+}
+
+.link:hover::after {
+  transform: scaleX(1); /* Torna a linha visível */
+  transition: 4s;
+}
+
