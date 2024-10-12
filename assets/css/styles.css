@@ -42,13 +42,6 @@ body {
   color:  hsl(212, 42%, 15%);
   
 }
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
 #logo {
   height: 50px;
   margin-right: auto;
@@ -187,6 +180,9 @@ a{
   margin: 0 auto;
   position: relative;
   z-index: 5;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 article{
@@ -232,10 +228,11 @@ article{
   text-decoration: none;
 }
 .card__button:hover {
-  filter: brightness(0) saturate(100%) invert(25%) sepia(100%) saturate(1200%) hue-rotate(335deg) brightness(95%) contrast(100%);
+  background-color: #be3144;
   transition: 0.5s;
   color: white;
 }
+
 
 /* Swiper class */
 .swiper-button-prev:after,
@@ -297,7 +294,6 @@ article{
 }
 
 .img-headline{
- 
   flex: 40%;
   text-align: center;
   background-color: hsl(212, 42%, 15%);
@@ -305,6 +301,9 @@ article{
 
 .img-headline img{
   background-color: hsl(212, 42%, 15%);
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .rodape{
@@ -337,75 +336,6 @@ article{
   height: 80px;
   z-index: 1;
   
-}
-
-
- .background-footer{
-  background-color: hsl(212, 42%, 15%);
-  color: white;
-} 
-
-.f{
-  background-color: hsl(212, 42%, 20%);
-  width: 25rem;
-  height: 28rem;
-  padding: 2rem 0 0 5rem;
-  border-radius: 10px;
-}
-
-.footer .box-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  gap: 1.5rem;
-}
-
-.footer .box-container .box h3 {
-  font-size: 2.2rem;
-  color: #fff;
-  padding: 1rem 1rem;
-}
-
-.footer .box-container .box .links {
-  font-size: 1.5rem;
-  display: block;
-  color: #aaa;
-  padding: 1rem 3rem;
-}
-
-.footer .box-container .box p {
-  font-size: 1.5rem;
-  color: #aaa;
-  padding: 1rem 3rem;
-}
-
-.footer  .box .share {
-  padding: 1rem 3rem;
-}
-
-.footer .box .share a {
- display: flex;
- justify-content: space-between;
- align-items: center;
- 
-}
-
-.footer .box form {
-  margin-left:5rem 0 0 2rem;
-}
-
-.share{
-  display: flex;
- justify-content: center;
- align-items: center;
- margin: 2rem 1rem 2rem -3rem;
-}
-
-.nav flex-column{
-  color: wheat;
-}
-
-footer{
-  padding: 0;
 }
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
@@ -482,7 +412,7 @@ img .link-img{
   .link::after {
     content: "";
     position: absolute;
-    width: 100%;
+   
     height: 2px; /* Espessura da linha */
     background: #be3144; /* Cor da linha */
     left: 0;
@@ -493,14 +423,29 @@ img .link-img{
   
   .link:hover {
     color: #be3144; /* Cor ao passar o mouse */
-    transition: 4s;
+    transition: 0.5s;
   }
   
   .link:hover::after {
     transform: scaleX(1); /* Torna a linha visível */
-    transition: 4s;
+    transition: 0.5s;
   }
  a{
   color: white;
  } 
-  
+  .link-container2{
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+  }.link-container2 {
+    display: flex;
+}
+
+.link2 { /* Tamanho ajustado */
+    transition: transform 0.3s ease, filter 0.3s ease; /* Transições suaves */
+}
+
+.link2:hover {
+    transform: scale(1.1); /* Aumenta o tamanho do ícone ao passar o mouse */
+    
+}
