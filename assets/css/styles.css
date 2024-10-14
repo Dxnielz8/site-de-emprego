@@ -42,6 +42,9 @@ body {
   color:  hsl(212, 42%, 15%);
   
 }
+
+/*=========== link topo ==========*/
+
 #logo {
   height: 50px;
   margin-right: auto;
@@ -50,13 +53,6 @@ body {
   margin-top: 30px
 }
 
-li{
-  display: flex-end;
-  text-align: center;
-  align-items: center;
-  text-decoration: none;
-  list-style: none;
-}
 nav{
   height: 100px;
   width: 0;
@@ -69,24 +65,6 @@ nav{
   margin-top: 10px;
 }
 
-.backgroun-footer{
-  display: flex;
-  
-}
-
-.insider:hover{
-  width: 27px;
-  filter: invert(100%);
-  transition: 0.4s;
- 
-}
-
-h5{
-  display: flex;
-  justify-content: center;
-}
-
-
 #testeteste{
   justify-content: space-between;
   width: 20%;
@@ -96,6 +74,7 @@ h5{
 .list {
   display: flex;
 }
+
 .list .links ul li a:after{
   content: "";
   position: absolute;
@@ -133,6 +112,180 @@ a{
   background-color: hsl(212, 42%, 15%);
   color: white;
 }
+
+li{
+  display: flex-end;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+}
+
+.cima{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem 0 1rem;
+  width: 100vw;
+}
+
+.fixo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem 0 2rem;
+  position: fixed;
+  background-color:  hsl(212, 42%, 15%);
+  height: 80px;
+  z-index: 1;
+}
+
+/*========== corpo =========*/
+
+.header{
+  padding-top: 125px ;
+  height: 600px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(212, 42%, 15%);
+  color: white;
+}
+
+.headline{
+  flex: 40%;
+  margin-left: 10%;
+}
+
+.headline h2{
+  font-weight: 900;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.headline p{
+  text-align: left;
+  color: rgba(99,101,102,255);
+}
+
+.img-headline{
+  flex: 40%;
+  text-align: center;
+  background-color: hsl(212, 42%, 15%);
+}
+
+.img-headline img{
+  background-color: hsl(212, 42%, 15%);
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+img .link-img{
+  color: #be3144;
+  background-color: #fff;
+}
+.links ul {
+  display: flex;
+  list-style-type: none; 
+  padding: 0; 
+  margin: 0; 
+}
+
+.links li {
+  display: flex; 
+}
+
+.link {
+  margin-right: 15px; 
+  text-decoration: none; 
+  color: inherit; 
+  
+}
+.links img:hover {
+  color: white;
+}
+  .link {
+    transition: filter 0.3s ease; 
+  }
+  
+  .link-container:hover .link {
+    filter: brightness(0) saturate(100%) invert(25%) sepia(100%) saturate(1200%) hue-rotate(335deg) brightness(95%) contrast(100%);
+  }
+
+  .link {
+    text-decoration: none; 
+    color: white; 
+    position: relative; 
+    transition: color 0.3s ease; 
+  }
+  
+  .link::after {
+    content: "";
+    position: absolute;
+    height: 2px; 
+    background: #be3144; 
+    left: 0;
+    bottom: -5px;
+    transform: scaleX(0); 
+    transition: transform 0.3s ease; 
+  }
+  
+  .link:hover {
+    color: #be3144; 
+    transition: 0.5s;
+  }
+  
+  .link:hover::after {
+    transform: scaleX(1); 
+    transition: 0.5s;
+  }
+/*========== foooter ===========*/
+
+.backgroun-footer{
+  display: flex;
+  
+}
+
+.insider:hover{
+  width: 27px;
+  filter: invert(100%);
+  transition: 0.4s;
+ 
+}
+
+h5{
+  display: flex;
+  justify-content: center;
+}
+
+.link-container2{
+  display: flex;
+  justify-items: center;
+  justify-content: space-around;
+}
+
+.link-container2 {
+  display: flex;
+}
+
+.link2 { 
+  transition: transform 0.3s ease, filter 0.3s ease; 
+}
+
+.link2:hover {
+  transform: scale(1.1); 
+  
+}
+
+.link-container2:hover .link2{
+filter: brightness(0) saturate(100%) invert(25%) sepia(100%) saturate(1200%) hue-rotate(335deg) brightness(95%) contrast(100%);
+}
+
+
+
+
+
 
 /*=============== CARD ===============*/
 .containers {
@@ -173,6 +326,7 @@ a{
   text-align: center;
   position: relative;
   z-index: 10;
+  
 }
 
 .card__img {
@@ -266,77 +420,6 @@ article{
   background-color: var(--second-color);
 }
 
-.header{
-  padding-top: 125px ;
-  height: 600px;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-  background-color: hsl(212, 42%, 15%);
-  color: white;
-}
-.headline{
-  flex: 40%;
-  margin-left: 10%;
-}
-
-.headline h2{
-  font-weight: 900;
-  font-size: 20px;
-  padding: 0;
-  margin: 0;
-}
-
-.headline p{
-  text-align: left;
-  color: rgba(99,101,102,255);
-}
-
-.img-headline{
-  flex: 40%;
-  text-align: center;
-  background-color: hsl(212, 42%, 15%);
-}
-
-.img-headline img{
-  background-color: hsl(212, 42%, 15%);
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-.rodape{
-  text-align: center;
-  flex-wrap: nowrap; 
-}
-
-.separaçao{
-  text-align: center;
-}
-
-.sobre{
-  line-height: 20px;
-}
-
-.cima{
-  display: flex;
-  justify-content: space-between;
-  padding: 0 1rem 0 1rem;
-  width: 100vw;
-}
-
-.fixo{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 2rem 0 2rem;
-  position: fixed;
-  background-color:  hsl(212, 42%, 15%);
-  height: 80px;
-  z-index: 1;
-  
-}
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 @media screen and (max-width: 320px) {
@@ -370,82 +453,4 @@ article{
   .swiper-button-next {
     right: -1rem;
   }
-}
-img .link-img{
-  color: #be3144;
-  background-color: #fff;
-}
-.links ul {
-  display: flex;
-  list-style-type: none; /* Remove os marcadores da lista */
-  padding: 0; /* Remove o padding padrão */
-  margin: 0; /* Remove a margem padrão */
-}
-
-.links li {
-  display: flex; /* Se precisar alinhar os itens dentro do li */
-}
-
-.link {
-  margin-right: 15px; /* Espaçamento entre os links */
-  text-decoration: none; /* Remove o sublinhado */
-  color: inherit; /* Mantém a cor do texto do link */
-  
-}
-.links img:hover {
-  color: white;
-}
-  .link {
-    transition: filter 0.3s ease; /* Animação suave para a mudança de cor */
-  }
-  
-  .link-container:hover .link {
-    filter: brightness(0) saturate(100%) invert(25%) sepia(100%) saturate(1200%) hue-rotate(335deg) brightness(95%) contrast(100%);
-  }
-  .link {
-    text-decoration: none; /* Remove o sublinhado padrão */
-    color: white; /* Cor do texto padrão */
-    position: relative; /* Para posicionar o pseudo-elemento */
-    transition: color 0.3s ease; /* Animação suave para a cor */
-  }
-  
-  .link::after {
-    content: "";
-    position: absolute;
-   
-    height: 2px; /* Espessura da linha */
-    background: #be3144; /* Cor da linha */
-    left: 0;
-    bottom: -5px; /* Distância da linha para o texto */
-    transform: scaleX(0); /* Inicia invisível */
-    transition: transform 0.3s ease; /* Animação para a linha */
-  }
-  
-  .link:hover {
-    color: #be3144; /* Cor ao passar o mouse */
-    transition: 0.5s;
-  }
-  
-  .link:hover::after {
-    transform: scaleX(1); /* Torna a linha visível */
-    transition: 0.5s;
-  }
- a{
-  color: white;
- } 
-  .link-container2{
-    display: flex;
-    justify-items: center;
-    justify-content: space-around;
-  }.link-container2 {
-    display: flex;
-}
-
-.link2 { /* Tamanho ajustado */
-    transition: transform 0.3s ease, filter 0.3s ease; /* Transições suaves */
-}
-
-.link2:hover {
-    transform: scale(1.1); /* Aumenta o tamanho do ícone ao passar o mouse */
-    
 }

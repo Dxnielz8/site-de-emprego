@@ -1,16 +1,4 @@
-@media screen and (max-width: 998px) {
-  .headline{
-      flex: 100%;
-      margin: 5%;
-      text-align: center;
-  }
-  .headline p{
-      text-align: center;
-  }
-}
-@media screen and (min-width: 768px) {
 
-}
 @media screen and (min-width: 1120px) {
 
 }
@@ -29,10 +17,10 @@
   --normal-font-size: 1rem;
 }
 body {
-  font-family: var(--body-font);
+ font-family: var(--body-font);
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
-  color: var(--white-color);
+  color: var(--white-color); 
  
 }
 * {
@@ -40,14 +28,8 @@ body {
   padding: 0;
   margin: 0;
 }
-a{
-  text-decoration: none;
-color: white;
 
-}
-.descricao{
-padding: 0 5rem 0 5rem;
-}
+/*========= link topo =========*/
 
 li{
   display: flex-end;
@@ -56,6 +38,7 @@ li{
   text-decoration: none;
   list-style: none;
 }
+
 nav{
   height: 100px;
   width: 0;
@@ -66,6 +49,7 @@ nav{
   display: flex;
  
 }
+
 a{
   position: relative;
   text-decoration: none;
@@ -76,48 +60,156 @@ a{
   padding: 0 10px;
   display: flex-end;
 }
+
+.descricao{
+padding: 0 3rem 0 3rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.cima{
+  display: flex;
+  justify-content: space-between;
+  padding: 7px 1rem 0 1rem;
+  width: 100vw;
+}
+
+.fixo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem 0 2rem;
+  position: fixed;
+  background-color:  hsl(212, 42%, 15%);
+  height: 80px;
+  z-index: 1;
+}
+
+.list .links ul li a:after{
+  content: "";
+  position: absolute;
+  background-color:#be3144 ;
+  height: 4px;
+  width: 100%;
+  left: 0;
+  width: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+
+.list .links ul li a:hover:after{
+  width: 100%;
+}
+
+#logo {
+  height: 50px;
+  margin-right: auto;
+  padding: 0;
+  width: 180px;
+  margin-top: 30px;
+}
+
+.links ul {
+  display: flex;
+  list-style-type: none; /* Remove os marcadores da lista */
+  padding: 0; /* Remove o padding padrão */
+  margin: 0; /* Remove a margem padrão */
+}
+
+.links li {
+  display: flex; /* Se precisar alinhar os itens dentro do li */
+}
+
+.link {
+  margin-right: 15px; /* Espaçamento entre os links */
+  text-decoration: none; /* Remove o sublinhado */
+  color: inherit; /* Mantém a cor do texto do link */
+}
+
+.link {
+  transition: filter 0.3s ease; /* Animação suave para a mudança de cor */
+}
+
+.link-container:hover .link {
+  filter: brightness(0) saturate(100%) invert(25%) sepia(100%) saturate(1200%) hue-rotate(335deg) brightness(95%) contrast(100%);
+}
+
+.link {
+  text-decoration: none; /* Remove o sublinhado padrão */
+  color: white; /* Cor do texto padrão */
+  position: relative; /* Para posicionar o pseudo-elemento */
+  transition: color 0.3s ease; /* Animação suave para a cor */
+}
+
+.link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px; /* Espessura da linha */
+  background: #be3144; /* Cor da linha */
+  left: 0;
+  bottom: -5px; /* Distância da linha para o texto */
+  transform: scaleX(0); /* Inicia invisível */
+  transition: transform 0.3s ease; /* Animação para a linha */
+}
+
+.link:hover::after {
+  transform: scaleX(1); /* Torna a linha visível */
+  transition: s;
+}
+/*========= esquerda =========*/
+
 .esquerda{
   height: 400px;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  
   direction: ltr;
   display: flex;
   text-align: justify;
  justify-content: flex-start;
 }
+
 .esquerda p{
   display: flex;
   text-align: justify;
  justify-content: flex-start;
 }
+
+.esquerda img{
+  padding-left: 20px;
+  margin-right: 10px;
+}
+/*========== direita ==========*/
 .direita p{
   display: flex;
   text-align: justify;
- justify-content: flex-end;;
+ justify-content: flex-end;
 }
 .direita{
   height: 400px;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  align-items: center;
-  
+  align-items: center; 
   direction: rtl;
   display: flex;
   text-align: justify;
  justify-content: flex-start;
 }
+
 .direita img{
   padding-right: 20px;
   margin-left: 10px;
 }
-.esquerda img{
-  padding-left: 20px;
-  margin-right: 10px;
-}
+
+/*========= corpo ==========*/
+
 .headline h2{
   font-weight: 900;
   font-size: 20px;
@@ -139,8 +231,14 @@ a{
   justify-content: space-between;
 }
 
+.img-headline {
+  display: flex; /* Permite o uso de flexbox */
+  justify-content: center; /* Centraliza a imagem */
+  margin-top: 20px; /* Espaço entre texto e imagem */
+}
+
 section{
-  padding: 4rem 0 4rem 0;
+  padding: 2rem 0 2rem 0;
 }
 
 .lista{
@@ -149,62 +247,12 @@ section{
   align-items: baseline;
   padding-top: 1rem;
 }
-.cima{
-  display: flex;
-  justify-content: space-between;
-  padding: 0 1rem 0 1rem;
-  width: 100vw;
-}
-.fixo{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 2rem 0 2rem;
-  position: fixed;
-  background-color:  hsl(212, 42%, 15%);
-  height: 80px;
-  z-index: 1;
-}
-.list .links ul li a:after{
-  content: "";
-  position: absolute;
-  background-color:#be3144 ;
-  height: 4px;
-  width: 100%;
-  left: 0;
-  width: 0;
-  bottom: -10px;
-  transition: 0.3s;
-}
-.list .links ul li a:hover:after{
-  width: 100%;
-}
-#logo {
-  height: 50px;
-  margin-right: auto;
-  padding: 0;
-  width: 180px;
-  margin-top: 30px;
-}
-.links ul {
-  display: flex;
-  list-style-type: none; /* Remove os marcadores da lista */
-  padding: 0; /* Remove o padding padrão */
-  margin: 0; /* Remove a margem padrão */
-}
 
-.links li {
-  display: flex; /* Se precisar alinhar os itens dentro do li */
-}
-
-.link {
-  margin-right: 15px; /* Espaçamento entre os links */
-  text-decoration: none; /* Remove o sublinhado */
-  color: inherit; /* Mantém a cor do texto do link */
-}
 .pititi img{
   padding: 0px 0px 0px 50px;
 }
+/*========== input dec ==========*/
+
 .file-input {
   display: none; /* Oculta o input padrão */
 }
@@ -227,40 +275,5 @@ section{
   text-align: center; /* Centraliza o botão de upload */
 }
 
-.img-headline {
-  display: flex; /* Permite o uso de flexbox */
-  justify-content: center; /* Centraliza a imagem */
-  margin-top: 20px; /* Espaço entre texto e imagem */
-}
-.link {
-  transition: filter 0.3s ease; /* Animação suave para a mudança de cor */
-}
-
-.link-container:hover .link {
-  filter: brightness(0) saturate(100%) invert(25%) sepia(100%) saturate(1200%) hue-rotate(335deg) brightness(95%) contrast(100%);
-}
-.link {
-  text-decoration: none; /* Remove o sublinhado padrão */
-  color: white; /* Cor do texto padrão */
-  position: relative; /* Para posicionar o pseudo-elemento */
-  transition: color 0.3s ease; /* Animação suave para a cor */
-}
-
-.link::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 2px; /* Espessura da linha */
-  background: #be3144; /* Cor da linha */
-  left: 0;
-  bottom: -5px; /* Distância da linha para o texto */
-  transform: scaleX(0); /* Inicia invisível */
-  transition: transform 0.3s ease; /* Animação para a linha */
-}
-
-.link:hover::after {
-  transform: scaleX(1); /* Torna a linha visível */
-  transition: 0.5s;
-}
 
 
