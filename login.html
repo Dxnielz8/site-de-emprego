@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Login</title>
     <link rel="stylesheet" href="assets/css/login.css">
-    <link rel="stylesheet" href="assets/js/acesso.js">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
 <body>
@@ -40,24 +39,20 @@
                     </ul>
                 </div><!-- social media -->
                 <p class="description description-second">ou use seu e-mail para inscrição:</p>
-                <form class="form">
-                    <label class="label-input" for="">
-                        <i class="far fa-user icon-modify"></i>
-                        <input type="text" placeholder="Name">
-                    </label>
+                <form  class="form">
                     
                     <label class="label-input" for="">
                         <i class="far fa-envelope icon-modify"></i>
-                        <input type="email" placeholder="Email">
+                        <input  type="email" placeholder="Email">
                     </label>
                     
                     <label class="label-input" for="">
                         <i class="fas fa-lock icon-modify"></i>
-                        <input type="password" placeholder="Password">
+                        <input  type="password" placeholder="Password">
                     </label>
                     
                     
-                    <button class="btn btn-second">inscrever-se</button>        
+                    <button class="btn btn-second" type="submit">inscrever-se</button>        
                 </form>
             </div><!-- second column -->
         </div><!-- first content -->
@@ -90,16 +85,16 @@
                     </ul>
                 </div><!-- social media -->
                 <p class="description description-second">ou use sua conta de e-mail:</p>
-                <form class="form">
+                <form id="login-form" class="form">
                 
                     <label class="label-input" for="">
                         <i class="far fa-envelope icon-modify"></i>
-                        <input type="email" placeholder="Email">
+                        <input id="login-email" type="email" placeholder="Email">
                     </label>
                 
                     <label class="label-input" for="">
                         <i class="fas fa-lock icon-modify"></i>
-                        <input type="password" placeholder="Password">
+                        <input id="login-password" type="password" placeholder="Password">
                     </label>
                 
                     <a class="password" href="#">esqueceu sua senha?</a>
@@ -109,7 +104,8 @@
         </div><!-- second-content -->
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     
-    <script src="assets/js/app.js"></script>
+    <script src="assets/js/login.js"> </script>
 </body>
 </html>
