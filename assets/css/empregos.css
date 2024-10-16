@@ -69,6 +69,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  
 }
 
 .cima{
@@ -159,7 +160,7 @@ img {
 
 .link:hover::after {
   transform: scaleX(1); /* Torna a linha visível */
-  transition: s;
+  transition: 0.5s;
 }
 /*========= esquerda =========*/
 
@@ -206,6 +207,7 @@ img {
 .direita img{
   padding-right: 20px;
   margin-left: 10px;
+  
 }
 
 /*========= corpo ==========*/
@@ -275,5 +277,5 @@ section{
   text-align: center; /* Centraliza o botão de upload */
 }
 
-
+/*========== footer ===========*/
 
