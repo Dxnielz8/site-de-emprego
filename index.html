@@ -13,144 +13,150 @@
       <!--=============== CSS ===============-->
       <link rel="stylesheet" href="assets/css/styles.css">
 
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+      
 
       <title>Página inicial - Inicio AOPA</title>
    </head>
    <body>
-      <div class="fixo">
-         <div class="cima">
-            <div>
-                <img id="logo" src="assets/img/HORIZONTAL.png" alt="">
-            </div>
-            <div class="list">
-               <nav class="links">
-                   <ul>
-                     <li>
-                        <a  class= "link" style="color: whitesmoke;" href="http://127.0.0.1:5500/index.html">Inicio</a>
-                        <a  class= "link" style="color: whitesmoke;" href="http://127.0.0.1:5500/emprego.html">Vagas</a>
-                     </li>
-                     <div class="link-container">
-                        <a href="http://127.0.0.1:5500/login.html">
-                          <img class="link" src="assets/img/perfil-de-usuario.png" alt="" width="27px" height="28px">
-                        </a>
-                      </div>
-                      
-                   </ul> 
-               </nav>
-           </div>
-    </div>
-   </div>
-   
-         <header class="header">
+      <nav class="nav">
+         <div class="icone">
+      <img class="logo" src="assets/img/HORIZONTAL.png" width="160px">
+ 
+         </div>
+ 
+         <nav class="navbar">
+             <a href="http://127.0.0.1:5500/index.html">Inicio</a>
+             <a href="#sobre">Sobre Nós</a>
+             <a href="http://127.0.0.1:5500/emprego.html">Vagas de emprego</a>
+             <a href="privacidade.html" target="_blank">Política de privacidade</a>
+           
+         </nav>
+ 
+      </nav>
+      <section id="home" class="home">
+         <div class="swiper home-slider">
+
+             <div class="swiper-wrapper">
+
+                 <div class="swiper-slide slide"
+                     style="background: url(assets/img/pexels-rebecca-zaal-252062-764681.jpg) no-repeat;">
+                     
+                 </div>
+
+                 <div class="swiper-slide slide"
+                     style="background: url(assets/img/pexels-rebecca-zaal-252062-764681.jpg) no-repeat;">
+                     <div class="content">
+                         <span>Seja Forte, seja fit</span>
+                         <h3>Torne-se mais forte do que suas desculpas.</h3>
+
+                     </div>
+                 </div>
+
+                 <div class="swiper-slide slide"
+                     style="background: url(assets/img/faxineiraaopa.jpg )no-repeat;">
+                     <div class="content">
+                         <span>Seja Forte, seja fit</span>
+                         <h3>Torne-se mais forte do que suas desculpas.</h3>
+
+                     </div>
+                 </div>
+             </div>
+            
+         </div>
+
+     </section>
+         <header  class="header">
             <div class="headline">
-               <h2 style="font-size: 50px;color: #e75d79 ;">Sobre nós</h2>
+               <h2 style="font-size: 50px;color: #e75d79 ; padding:0; ">Sobre nós</h2>
                <p style="color: white;"> Nós, das Obras Sociais Pavonianas, buscamos sempre o melhor para nossos colaboradores e para nossos alunos. Com isso, criamos um projeto de vagas de emprego, através do qual convidamos diversas pessoas que estão em busca de trabalho. Oferecemos oportunidades em várias áreas que complementam a rotina de uma escola. Nosso objetivo é encontrar as melhores pessoas e os currículos mais adequados, para que assim possamos contar com funcionários que garantam a eficiência da escola e proporcionem o maior conforto para nossos alunos. Você é a habilidade que ajuda a mover essa grande engrenagem.
                </p>
+               <a href="#" class="contact-btn">Contate-nos</a>
             </div>
             <div class="img-headline">
-               <img  src="assets/img/83429939_3d_style_mechanical_item_-8-removebg-preview (1).png" width="800px" alt="">
+               <img style="max-width: 800px;"  src="assets/img/83429939_3d_style_mechanical_item_-8-removebg-preview (1).png" ma alt="">
             </div>        
          </header>
-      <section class="containers">
-         <div class="card__container swiper">
-            <div class="card__content">
-               <div class="swiper-wrapper">
-                  <article class="card__article swiper-slide">
-                     <div class="card__image">
-                        <img src="assets/img/professor.jpg" alt="image" class="card__img">
-                        <div class="card__shadow"></div>
-                     </div>
-      
-                     <div class="card__data">
-                        <h3 class="card__name">Professora(o)</h3>
-                        <p class="card__description">
-                          Vagas para professor
-                        </p>
-      
-                        <a href="http://127.0.0.1:5500/emprego.html" class="card__button">Veja Mais</a>
-                     </div>
-                  </article>
-      
-                  <article class="card__article swiper-slide">
-                     <div class="card__image">
-                        <img src="assets/img/cozinheiro.jpg" alt="image" class="card__img">
-                        <div class="card__shadow"></div>
-                     </div>
-      
-                     <div class="card__data">
-                        <h3 class="card__name">Cozinheira(o)</h3>
-                        <p class="card__description">
-                           Vaga para Cozinheiro e Ajudante 
-                        </p>
-      
-                        <a href="http://127.0.0.1:5500/emprego.html" class="card__button">Veja Mais</a>
-                     </div>
-                  </article>
-      
-                  <article class="card__article swiper-slide">
-                     <div class="card__image">
-                        <img src="assets/img/faxineira.jpg" alt="image" class="card__img">
-                        <div class="card__shadow"></div>
-                     </div>
-      
-                     <div class="card__data">
-                        <h3 class="card__name">Faxineira(o) </h3>
-                        <p class="card__description">
-                          Vaga para Faxineira e Auxiliar 
-                        </p>
-      
-                        <a href="http://127.0.0.1:5500/emprego.html" class="card__button">Veja Mais</a>
-                     </div>
-                  </article>
-      
-                  <article class="card__article swiper-slide">
-                     <div class="card__image">
-                        <img src="assets/img/porteiro.jpg" alt="image" class="card__img">
-                        <div class="card__shadow"></div>
-                     </div>
-      
-                     <div class="card__data">
-                        <h3 class="card__name">Porteira(o)</h3>
-                        <p class="card__description">
-                           Vaga para Seguranças
-                        </p>
-      
-                        <a href="http://127.0.0.1:5500/emprego.html" class="card__button">Veja Mais</a>
-                     </div>
-                  </article>
-
-                  <article class="card__article swiper-slide">
-                     <div class="card__image">
-                        <img src="assets/img/secretaria.jpg" alt="image" class="card__img">
-                        <div class="card__shadow"></div>
-                     </div>
-      
-                     <div class="card__data">
-                        <h3 class="card__name">Secretaria(o)</h3>
-                        <p class="card__description">
-                          Vaga para Secretária
-                        </p>
-      
-                        <a href="http://127.0.0.1:5500/emprego.html" class="card__button">Veja Mais</a>
-                     </div>
-                  </article>
-               </div>
-            </div>
-            <!-- Navigation buttons -->
-            <div class="swiper-button-next">
-               <i class="ri-arrow-right-s-line"></i>
-            </div>
-            
-            <div class="swiper-button-prev">
-               <i class="ri-arrow-left-s-line"></i>
-            </div>
-
-            <!-- Pagination -->
-            <div class="swiper-pagination"></div>
-         </div>
          
-      </section >
+         <section id="blogs" class="blogs">
+            <h1 class="heading"> <span>Postagens diárias</span> </h1>
+            <div class="swiper blogs-slider">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide slide">
+                        <div class="image">
+                            <img src="assets/img/83429939_3d_style_mechanical_item_-8-removebg-preview (1).png" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="link"> <a href="#">nossos alunos</a> <span>|</span> <a href="#">22 outubro,
+                                    2024</a>
+                            </div>
+                            <h3>⁠Realizar exercícios físicos diariamente gera abundância de saúde.</h3>
+                            <p>Escrever um subtítulo para a postagem</p>
+
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <div class="image">
+                            <img src="assets/img/83429939_3d_style_mechanical_item_-8-removebg-preview (1).png" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="link"> <a href="#">nossos alunos</a> <span>|</span> <a href="#">22 outubro,
+                                    2024</a>
+                            </div>
+                            <h3>faça exercícios!
+                                Além de ser bom para o corpo é um excelente elixir para novas ideias.</h3>
+                            <p>Escrever um subtítulo para a postagem</p>
+
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <div class="image">
+                            <img src="assets/img/83429939_3d_style_mechanical_item_-8-removebg-preview (1).png" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="link"> <a href="#">Nossos alunos</a> <span>|</span> <a href="#">22 outubro,
+                                    2024</a>
+                            </div>
+                            <h3>⁠Uma boa sessão de exercícios físicos e alongamentos geram muita paz interior.</h3>
+                            <p>Escrever um subtítulo para a postagem</p>
+
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <div class="image">
+                            <img src="assets/img/83429939_3d_style_mechanical_item_-8-removebg-preview (1).png" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="link"> <a href="#">Nossos alunos</a> <span>|</span> <a href="#">22 outubro,
+                                    2024</a>
+                            </div>
+                            <h3>O sabor do suor sempre será melhor do que o gosto amargo da doença.
+                            </h3>
+                            <p>Escrever um subtítulo para a postagem</p>
+
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <div class="image">
+                            <img src="assets/img/83429939_3d_style_mechanical_item_-8-removebg-preview (1).png" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="link"> <a href="#">por admin</a> <span>|</span> <a href="#">22 outubro, 2023</a>
+                            </div>
+                            <h3>O seu sistema imunológico agradece a realização dos seus exercícios físicos diários.
+                            </h3>
+                            <p>Escrever um subtítulo para a postagem</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
      <section class="iniciativa">
 
             <div class="feito">
@@ -169,64 +175,59 @@
    <p>A iniciativa reflete o espírito de responsabilidade social da instituição, que, além de sua missão educativa, se propõe a gerar impacto positivo na comunidade ao auxiliar trabalhadores em sua busca por colocação profissional. O site busca atender não apenas à demanda local, mas também a um público mais amplo, promovendo o desenvolvimento econômico e incentivando a qualificação contínua dos trabalhadores.</p>
 </div>
      </section>
+     <header class="header2">
+      <div class="headline2">
+      <h2 style="color:#be3144 ;">Politica de Privacidade</h2>
+    
+       <p> A sua privacidade é importante para nós. É política do Vaga de Emprego AOPA respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar no site Vaga de Emprego AOPA, e outros sites que possuímos e operamos.</p>
+       <p> Solicitamos informações pessoais apenas quando realmente precisamos delas para lhe fornecer um serviço. Fazemo-lo por meios justos e legais, com o seu conhecimento e consentimento. Também informamos por que estamos coletando e como será usado.</p>
+       <p>Apenas retemos as informações coletadas pelo tempo necessário para fornecer o serviço solicitado. Quando armazenamos dados, protegemos dentro de meios comercialmente aceitáveis ​​para evitar perdas e roubos, bem como acesso, divulgação, cópia, uso ou modificação não autorizados.</p> 
+       <p> Não compartilhamos informações de identificação pessoal publicamente ou com terceiros, exceto quando exigido por lei.</p>
+       <p>O nosso site pode ter links para sites externos que não são operados por nós. Esteja ciente de que não temos controle sobre o conteúdo e práticas desses sites e não podemos aceitar responsabilidade por suas respectivas políticas de privacidade.</p>
+       <p>Você é livre para recusar a nossa solicitação de informações pessoais, entendendo que talvez não possamos fornecer alguns dos serviços desejados.</p> 
+       <p>O uso continuado de nosso site será considerado como aceitação de nossas práticas em torno de privacidade e informações pessoais. Se você tiver alguma dúvida sobre como lidamos com dados do usuário e informações pessoais, entre em contacto connosco.</p> 
+      </div>
+        
+       <div class="headline2">
+       <h2 style="color: #be3144; padding: 0;" >Compromisso do Usuário</h2>
+       <p>O usuário se compromete a fazer uso adequado dos conteúdos e da informação que o Vaga de Emprego AOPA oferece no site e com caráter enunciativo, mas não limitativo:
+       A) Não se envolver em atividades que sejam ilegais ou contrárias à boa fé a à ordem pública;
+       B) Não difundir propaganda ou conteúdo de natureza racista, xenofóbica, 166bet ou azar, qualquer tipo de pornografia ilegal, de apologia ao terrorismo ou contra os direitos humanos;
+       C) Não causar danos aos sistemas físicos (hardwares) e lógicos (softwares) do Vaga de Emprego AOPA, de seus fornecedores ou terceiros, para introduzir ou disseminar vírus informáticos ou quaisquer outros sistemas de hardware ou software que sejam capazes de causar danos anteriormente mencionados.</p>
+    </div>
+    </header>
+    
      
      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.4308948578455!2d-43.95287962593489!3d-19.948373138878587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa69783975f1795%3A0xb2326e79900c4aaf!2sObras%20Sociais%20Pavonianas%20%22Padre%20Agnaldo%22!5e0!3m2!1spt-BR!2sbr!4v1729032799354!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       
-      <div class="contai">
-         <div class="backgroun-footer">
-              <div class="col-6 col-md-1 mb-2 mt-">
-                
-                <ul class="nav flex-column">
-                  <h5 style="color: white;" id="meio">Pagina</h5>
-                  <li style="color: white;" class="nav-item mb-2 "><a href="http://127.0.0.1:5500/emprego.html" class="nav-link p-0 ">Vagas</a></li>
-                  <li style="color: white;" class="nav-item mb-2"><a href="http://127.0.0.1:5500/privacidade.html" class="nav-link p-0 ">Privacidade</a></li>
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Inicio</a></li>
-                </ul>
-              </div>
-        
-              <div class="col-md-5 offset-md-6 mb-3">
-                <form>
-                  <h5>Subscribe to our newsletter</h5>
-                  <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                    <label for="newsletter1" class="visually-hidden">Email de entrada</label>
-                    <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-                    <button class="btn btn-primary" type="button">cadastre</button>
-                  </div>
-                  
-                  <div id="testeteste" class="d-flex">
-                     <div class="link-container2">
-                        <a href="https://www.facebook.com/obrassociaispavonianas/">
-                          <img class="link2" src="assets/img/icons8-facebook-novo.svg" alt="" width="35px" height="36px">
-                        </a>
-                     </div>
-                     <div class="link-container2">
-                        <a href="http://127.0.0.1:5500/login.html">
-                           <img class="link2" src="assets/img/icons8-instagram.svg" alt="" width="35px" height="36px">
-                         </a>
-                        </div>
-                        <div class="link-container2">
-                           <a href="https://www.pavonianos.org.br/">
-                              <img class="link2" src="assets/img/icons8-partilhar.svg" alt="" width="35px" height="36px">
-                            </a>
-                           </div>
-                  </div>
-                </form>
-              </div>
-            </div>
-        
-            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 border-top" id="footerbaixo">
-              <p>© 2024 Company, Inc. All rights reserved.</p>
-             
-            </div>
-          </div>
-         
+
+     <footer class="footer">
+      <div class="icone">
+         <img class="logo" src="assets/img/HORIZONTAL.png" width="160px">
+    </div>
+    <div>
+    <a href="#"> <img src="assets/img/icons8-instagram.svg" alt="" width="30px"></a>
+    <a href="#"> <img src="assets/img/icons8-facebook-novo.svg" alt="" width="30px"></a>
+    <a href="#"> <img src="assets/img/icons8-partilhar.svg" alt="" width="30px"></a>
+   </div>
+
+     </footer>
+     <section class="horarios">
+        <h3>Horário Escolar</h3>
+        <p> Segunda : <i> 7:00 - 22:00 </i> </p>
+        <p> Terça : <i> 7:00 - 22:00 </i> </p>
+        <p> Quarta : <i> 7:00 - 22:00 </i> </p>
+        <p> Quinta : <i> 7:00 - 22:00 </i> </p>
+        <p> Sexta : <i> 7:00 - 22:00 </i> </p>
+        <p> Sábado : <i> 7:00am - 10:30 </i> </p>
+        <p> Domingo : <i> Fechado </i> </p>
+    
+  </section>
        
       
-      <!--=============== SWIPER JS ===============-->
-      <script src="assets/js/swiper-bundle.min.js"></script>
-
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
+      
+<script src="assets/js/card.js"></script>
+     
       <!--=============== MAIN JS ===============-->
       <script src="assets/js/main.js"></script>
    </body>
