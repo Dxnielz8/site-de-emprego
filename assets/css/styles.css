@@ -8,6 +8,9 @@
 }
 
 /*=============== BASE ===============*/
+html{
+  scroll-behavior: smooth;
+}
 * {
   font-family: 'Nunito', sans-serif;
   margin: 0;
@@ -23,6 +26,7 @@ p{
 body {
   font-family: var(--body-font);
   background-color: var(--body-color);
+  scroll-behavior: smooth;
 }
 
 /*=========== link topo ==========*/
@@ -39,17 +43,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 15px 9%;
+  padding: 15px 50px;
   z-index: 3;
   background: hsl(211, 45%, 10%);
 }
 
-.nav .logo span {
-  color: rgb(124 0 255);
-}
+
 .nav .navbar a {
   display: inline-block;
-  padding: 0px 30px;
+  padding: 10px 30px;
   color: #fff;
   position: relative;
   transition: all 0.3s ease; /* Transição suave */
@@ -156,7 +158,7 @@ input {
 /*# sourceMappingURL=bootstrap.min.css.map */
 /*========== card =========*/
 main{
-  padding-top: 500px;
+  padding-top: 30px;
   padding-bottom: 0px;
 }
 .container {
@@ -317,6 +319,7 @@ main{
   
 }
 .header{
+  scroll-behavior: smooth;
   padding-top: 125px ;
   height: 600px;
   display: flex;
@@ -376,120 +379,73 @@ main{
   
 }
 /*========== privacidade =========== */
-.header2{
-  padding: 100px;
-  background-color:  hsl(212, 42%, 15%);
 
-}
-
-h2{
-  padding: 0;
-}
-
-.headline2 p{
-  text-align: right;
-}
-
-.headline h2{
-  text-align: left;
-}
-
-.header2{
-  padding-top: 125px ;
-  height: 600px;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-  background-color: hsl(212, 42%, 15%);
-  color: white;
-  height: auto;
-  width: auto;
-}
-
-.headline2{
-  height: 400px;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-  height: auto;
-  direction: ltr;
-  display: flex;
-  text-align: justify;
- justify-content: flex-start;
- width: auto;
-}
-
-.headline2 p{
-  display: flex;
-  text-align: justify;
- justify-content: flex-star;
-}
-
-
-/*========== sobre ==========*/
-
-.feito{
-  
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-  direction: ltr;
-  display: flex;
-  text-align: justify;
- justify-content: flex-start;
-  padding: 0 200px 100px 100px;
-}
-.img-headline2 {
-  align-items: flex-end;
-  justify-content: flex-end;
-  display: flex;
-  padding-right: 200px;
-  
-}
-.p-reto {
-vertical-align: baseline;
-}
 
 /*========== foooter ===========*/
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+
+
 .footer {
+  position: relative;
+  width: 100%;
+  background: #be3144;
+  min-height: 100px;
+  padding: 20px 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 10px 20px;
-  background-color: #be3144; /* cor de fundo */
+  flex-direction: column;
 }
 
-.icone {
-  flex: 1;
-}
-
-.icone .logo {
-  max-width: 100%;
-}
-
-.footer a {
-  margin-left: 15px; /* espaço entre os ícones */
-  transition: transform 0.3s; /* efeito suave no hover */
-}
-
-.footer a:hover {
-  transform: scale(1.1); /* aumenta o tamanho no hover */
-  fill: #be3144;
-}
-.horarios{
-  text-align: center;
-  align-items: center;
+.social-icon,
+.menu {
+  position: relative;
   display: flex;
-  background-color: #be3144;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
 }
-.horarios p{
-  padding: 0 5px 0 5px;
-}
-.horarios h3{
-  padding-left: 35px;
 
+.social-icon__item,
+.menu__item {
+  list-style: none;
 }
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+
+
