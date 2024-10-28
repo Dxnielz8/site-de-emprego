@@ -30,6 +30,39 @@ body {
 }
 
 /*=========== link topo ==========*/
+li{
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav .navbar .dropdown {
+  display: none; /* Inicialmente escondido */
+  position: absolute; /* Posiciona o dropdown em relação ao li pai */
+  top: 100%; /* Coloca o dropdown logo abaixo do link */
+  left: 0;
+  background: hsl(211, 45%, 10%); /* Cor de fundo do dropdown */
+  border-radius: 5px; /* Borda arredondada */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra */
+  z-index: 2; /* Para garantir que fique acima de outros elementos */
+}
+
+.nav .navbar li:hover .dropdown {
+  display: block; /* Exibe o dropdown ao passar o mouse */
+}
+
+.nav .navbar .dropdown li {
+  display: block; /* Exibe os itens do dropdown em bloco */
+  align-items: center;
+}
+
+
+
+.nav .navbar .dropdown a:hover {
+  background: #be3144; /* Cor ao passar o mouse */
+}
+
 
 .icone{
   position: relative;
@@ -223,7 +256,7 @@ main{
 
   color: white;
   font-family: 'Roboto', sans-serif;
-  padding: 100px 0 0 0;
+  padding: 30px 0 0 0;
   text-align: center;
   font-size: 1.2em;
   font-weight: 300;
@@ -359,33 +392,8 @@ main{
   max-width: 100%;
   height: auto;
 }
-.contact-btn a {
-  margin-top: 20px;
-}
-.contact-btn {
-  display: inline-block;
-  margin-top: 30px;
-  text-transform: uppercase;
-  border-radius: 5px;
-  color: white;
-  background-color: #be3144;
-  padding-block: 10px;
-  transition: 0.5s background;
-}
-
-.contact-btn:hover{
-  background-color: #aa1c2f;
-  transition: 0.5s background;
-  
-}
-/*========== privacidade =========== */
-
 
 /*========== foooter ===========*/
-
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
-
-
 
 .footer {
   position: relative;

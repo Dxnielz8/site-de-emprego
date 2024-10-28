@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600&display=swap");
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+a{
+ text-decoration: none;
+}
+/*=========== link ===========*/
+.icone{
+    position: relative;
+     
+  }
+  .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 50px;
+    z-index: 3;
+    background: hsl(211, 45%, 10%);
+  }
+  
+  
+  .nav .navbar a {
+    display: inline-block;
+    padding: 10px 30px;
+    color: #fff;
+    position: relative;
+    transition: all 0.3s ease; /* Transição suave */
+  }
+  
+  .nav .navbar a:hover {
+    background:  #be3144;
+    color: #fff;
+    border-radius: 5px; /* Arredonda as bordas ao passar o mouse */
+    box-shadow: 0 4px 15px #be3144; /* Adiciona uma leve sombra */
+    transform: scale(1.05); /* Aumenta levemente o tamanho do link */
+  }
+  #menu-btn {
+    font-size: 3rem;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+  }
+  
+  .nav .navbar a img{
+    transition: filter 0.3s ease;
+  }
+  .nav .navbar a:hover img{
+     filter: brightness(0) saturate(100%) invert(25%) sepia(100%) saturate(1200%) hue-rotate(335deg) brightness(95%) contrast(100%);
+  }
+/*=========== descriçao ===========*/
+
+.container{
+  height: 5rem;
+  background-color: black;
+  color: white;
+  width: 100vw;
+  margin-top: 100px;
+  z-index: 10;
+}
+button{
+  background-color: red ;
+}
+
+ 
+ .segunda-tela {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #b69797;
+  /* margin-top: 46rem faz com que o elemento fique no final da tela */
+  margin-top: 46rem;
+  z-index: 10;
+}
+
+.terceira-tela {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #b69797;
+  margin-top: 46rem;
+}
+
+.fechar1 {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.fechar2 {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 10;
+}
+
+/* Essa classe faz com que o elemento fique posicionado no inicio da página */
+.show {
+  margin-top: 0rem;
+  animation: slideUp 1s;
+}
+
+/* Essa classe faz com que o elemento não fique visível na página */
+.hidden {
+  display: none;
+}
+
+/* Keyframes é onde você vai editar a sua animação */
+@keyframes slideUp {
+  from {
+    margin-top: 46rem;
+  }
+  to {
+    margin-top: 0;
+  }
+}
+/*========== foooter ===========*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+
+
+.footer {
+  position: relative;
+  width: 100%;
+  background: #be3144;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+
+

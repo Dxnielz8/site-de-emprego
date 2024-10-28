@@ -1,10 +1,18 @@
 let contador = 1;
+let tempo = 3000; 
 
-setInterval( function(){
+function mudarSlide() {
     document.getElementById('slide' + contador).checked = true;
     contador++;
 
-    if(counter > 5 ) {
+    if (contador > 5) {
         contador = 1;
+        tempo += 2000;
     }
-}, 3000 );
+
+
+    setTimeout(mudarSlide, tempo);
+}
+
+
+mudarSlide();
