@@ -9,6 +9,9 @@
 a{
  text-decoration: none;
 }
+body{
+  background-color: hsl(211, 34%, 19%);
+}
 /*=========== link ===========*/
 .icone{
     position: relative;
@@ -58,28 +61,368 @@ a{
   }
 /*=========== descriçao ===========*/
 
-.container{
-  height: 5rem;
-  background-color: black;
-  color: white;
-  width: 100vw;
+.apresentacao {
+  display: flex;
+  justify-content: center;
   margin-top: 100px;
-  z-index: 10;
-}
-button{
-  background-color: red ;
+  cursor: pointer;
 }
 
- 
+.botao1 {
+  background-color: #f9f9f9; /* cor de fundo */
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* sombra */
+  padding: 20px 30px; /* padding top e bottom de 20px, left e right de 30px */
+  width: 900px; /* largura máxima */
+  height: 200px;
+  text-align: left; /* alinhamento à esquerda */
+  cursor: pointer;
+  transition: box-shadow 0.3s ease; /* transição para hover */
+  z-index: -1;
+}
+
+.botao1:hover {
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* sombra ao passar o mouse */
+  cursor: pointer;
+}
+
+.botao1 h2 {
+  font-size: 1.5em;
+  color: #333;
+  margin: 0 0 10px 0;
+}
+
+.botao1 h3 {
+  font-size: 1.1em;
+  color: #555;
+  margin: 0;
+}
+
+.botao1 p {
+  font-size: 1em;
+  color: #666;
+  margin: 5px 0;
+}
+.apresentacao2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.botao2 {
+  background-color: #f9f9f9; /* cor de fundo */
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* sombra */
+  padding: 20px 30px; /* padding top e bottom de 20px, left e right de 30px */
+  width: 900px; /* largura máxima */
+  height: 200px;
+  text-align: left; /* alinhamento à esquerda */
+  cursor: pointer;
+  transition: box-shadow 0.3s ease; /* transição para hover */
+  z-index: -1;
+}
+.botao2:hover {
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* sombra ao passar o mouse */
+  cursor: pointer;
+}
+
+.botao2 h2 {
+  font-size: 1.5em;
+  color: #333;
+  margin: 0 0 10px 0;
+}
+
+.botao2 h3 {
+  font-size: 1.1em;
+  color: #555;
+  margin: 0;
+}
+
+.botao2 p {
+  font-size: 1em;
+  color: #666;
+  margin: 5px 0;
+}
+.apresentacao3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.botao3 {
+  background-color: #f9f9f9; /* cor de fundo */
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* sombra */
+  padding: 20px 30px; /* padding top e bottom de 20px, left e right de 30px */
+  width: 900px; /* largura máxima */
+  height: 200px;
+  text-align: left; /* alinhamento à esquerda */
+  cursor: pointer;
+  transition: box-shadow 0.3s ease; /* transição para hover */
+  z-index: -1;
+}
+.botao3:hover {
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* sombra ao passar o mouse */
+  cursor: pointer;
+}
+
+.botao3 h2 {
+  font-size: 1.5em;
+  color: #333;
+  margin: 0 0 10px 0;
+}
+
+.botao3 h3 {
+  font-size: 1.1em;
+  color: #555;
+  margin: 0;
+}
+
+.botao3 p {
+  font-size: 1em;
+  color: #666;
+  margin: 5px 0;
+}
+
+.apresentacao4 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.botao4 {
+  background-color: #f9f9f9; /* cor de fundo */
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* sombra */
+  padding: 20px 30px; /* padding top e bottom de 20px, left e right de 30px */
+  width: 900px; /* largura máxima */
+  height: 200px;
+  text-align: left; /* alinhamento à esquerda */
+  cursor: pointer;
+  transition: box-shadow 0.3s ease; /* transição para hover */
+  z-index: -1;
+}
+.botao4:hover {
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* sombra ao passar o mouse */
+  cursor: pointer;
+}
+
+.botao4 h2 {
+  font-size: 1.5em;
+  color: #333;
+  margin: 0 0 10px 0;
+}
+
+.botao4 h3 {
+  font-size: 1.1em;
+  color: #555;
+  margin: 0;
+}
+
+.botao4 p {
+  font-size: 1em;
+  color: #666;
+  margin: 5px 0;
+}
+
+.apresentacao5 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.botao5 {
+  background-color: #f9f9f9; /* cor de fundo */
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* sombra */
+  padding: 20px 30px; /* padding top e bottom de 20px, left e right de 30px */
+  width: 900px; /* largura máxima */
+  height: 200px;
+  text-align: left; /* alinhamento à esquerda */
+  cursor: pointer;
+  transition: box-shadow 0.3s ease; /* transição para hover */
+  z-index: -1;
+}
+.botao5:hover {
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* sombra ao passar o mouse */
+  cursor: pointer;
+}
+
+.botao5 h2 {
+  font-size: 1.5em;
+  color: #333;
+  margin: 0 0 10px 0;
+}
+
+.botao5 h3 {
+  font-size: 1.1em;
+  color: #555;
+  margin: 0;
+}
+
+.botao5 p {
+  font-size: 1em;
+  color: #666;
+  margin: 5px 0;
+}
+
+.apresentacao6 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.botao6 {
+  background-color: #f9f9f9; /* cor de fundo */
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* sombra */
+  padding: 20px 30px; /* padding top e bottom de 20px, left e right de 30px */
+  width: 900px; /* largura máxima */
+  height: 200px;
+  text-align: left; /* alinhamento à esquerda */
+  cursor: pointer;
+  transition: box-shadow 0.3s ease; /* transição para hover */
+  z-index: -1;
+}
+.botao6:hover {
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* sombra ao passar o mouse */
+  cursor: pointer;
+}
+
+.botao6 h2 {
+  font-size: 1.5em;
+  color: #333;
+  margin: 0 0 10px 0;
+}
+
+.botao6 h3 {
+  font-size: 1.1em;
+  color: #555;
+  margin: 0;
+}
+
+.botao6 p {
+  font-size: 1em;
+  color: #666;
+  margin: 5px 0;
+}
+
+.apresentacao7 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.botao7 {
+  background-color: #f9f9f9; /* cor de fundo */
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* sombra */
+  padding: 20px 30px; /* padding top e bottom de 20px, left e right de 30px */
+  width: 900px; /* largura máxima */
+  height: 200px;
+  text-align: left; /* alinhamento à esquerda */
+  cursor: pointer;
+  transition: box-shadow 0.3s ease; /* transição para hover */
+  z-index: -1;
+}
+.botao7:hover {
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* sombra ao passar o mouse */
+  cursor: pointer;
+}
+
+.botao7 h2 {
+  font-size: 1.5em;
+  color: #333;
+  margin: 0 0 10px 0;
+}
+
+.botao7 h3 {
+  font-size: 1.1em;
+  color: #555;
+  margin: 0;
+}
+
+.botao7 p {
+  font-size: 1em;
+  color: #666;
+  margin: 5px 0;
+}
+
+.apresentacao8 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.botao8 {
+  background-color: #f9f9f9; /* cor de fundo */
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* sombra */
+  padding: 20px 30px; /* padding top e bottom de 20px, left e right de 30px */
+  width: 900px; /* largura máxima */
+  height: 200px;
+  text-align: left; /* alinhamento à esquerda */
+  cursor: pointer;
+  transition: box-shadow 0.3s ease; /* transição para hover */
+  z-index: -1;
+}
+.botao8:hover {
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* sombra ao passar o mouse */
+  cursor: pointer;
+}
+
+.botao8 h2 {
+  font-size: 1.5em;
+  color: #333;
+  margin: 0 0 10px 0;
+}
+
+.botao8 h3 {
+  font-size: 1.1em;
+  color: #555;
+  margin: 0;
+}
+
+.botao8 p {
+  font-size: 1em;
+  color: #666;
+  margin: 5px 0;
+}
+/*========== tela sobe ==========*/
  .segunda-tela {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #b69797;
+  background-color: whitesmoke;
   /* margin-top: 46rem faz com que o elemento fique no final da tela */
   margin-top: 46rem;
   z-index: 10;
+}
+
+.fechar1 {
+  position: absolute;
+  top: 80px;
+  right: 1rem;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 10;
+  text-decoration: none;
 }
 
 .terceira-tela {
@@ -87,31 +430,134 @@ button{
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #b69797;
+  background-color: whitesmoke;
   margin-top: 46rem;
-}
-
-.fechar1 {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  font-size: 2rem;
-  cursor: pointer;
-  z-index: 10;
 }
 
 .fechar2 {
   position: absolute;
   top: 1rem;
   right: 1rem;
-  font-size: 2rem;
+  font-size: 20px;
   cursor: pointer;
   z-index: 10;
 }
 
+.quarta-tela {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: whitesmoke;
+  /* margin-top: 46rem faz com que o elemento fique no final da tela */
+  margin-top: 46rem;
+  z-index: 10;
+}
+.fechar3 {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.quinta-tela {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: whitesmoke;
+  margin-top: 46rem;
+}
+
+.fechar4 {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.sexta-tela {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: whitesmoke;
+  /* margin-top: 46rem faz com que o elemento fique no final da tela */
+  margin-top: 46rem;
+  z-index: 10;
+}
+.fechar5 {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.setima-tela {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: whitesmoke;
+  margin-top: 46rem;
+}
+
+.fechar6 {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.oitava-tela {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: whitesmoke;
+  /* margin-top: 46rem faz com que o elemento fique no final da tela */
+  margin-top: 46rem;
+  z-index: 10;
+}
+.fechar7 {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.nona-tela {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: whitesmoke;
+  margin-top: 46rem;
+}
+
+.fechar8 {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+
 /* Essa classe faz com que o elemento fique posicionado no inicio da página */
 .show {
-  margin-top: 0rem;
+  margin-top: -19rem;
   animation: slideUp 1s;
 }
 
@@ -133,6 +579,9 @@ button{
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 
+.mapa{
+  z-index: 1;
+}
 
 
 .footer {
@@ -145,6 +594,7 @@ button{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  z-index: -1;
 }
 
 .social-icon,
