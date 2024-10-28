@@ -60,6 +60,20 @@ body{
      filter: brightness(0) saturate(100%) invert(25%) sepia(100%) saturate(1200%) hue-rotate(335deg) brightness(95%) contrast(100%);
   }
 /*=========== descriçao ===========*/
+.meu-input {
+  border: none; /* Remove a borda */
+  background: transparent; /* Remove o fundo */
+  outline: none; /* Remove o contorno ao focar */
+  /* Outros estilos que você pode querer */
+  padding: 10px; /* Adiciona um pouco de espaçamento */
+  font-size: 16px; /* Ajusta o tamanho da fonte */
+  background-color: #be3144;
+  border-radius: 10px;
+  
+}
+input{
+  display: n;
+}
 
 .apresentacao {
   display: flex;
