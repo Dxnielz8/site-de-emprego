@@ -105,7 +105,7 @@ header {
     background: white;
     padding: 20px;
     border-radius: 30px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   box-shadow:  rgba(197, 32, 54, 0.4) 5px 5px, rgba(160, 34, 51, 0.3) 10px 10px,rgba(190, 49, 68, 0.2) 15px 15px, rgba(190, 49, 68, 0.1) 20px 20px, rgba(190, 49, 68, 0.05) 25px 25px;
 }
 h2 {
     color: #be3144;
@@ -118,7 +118,7 @@ ul {
 
 .footer {
     position: relative;
-    width: 100%;
+   
     background: #be3144;
     min-height: 100px;
     padding: 20px 50px;
