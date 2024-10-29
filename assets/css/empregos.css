@@ -61,7 +61,20 @@ body{
   }
 /*=========== descriçao ===========*/
 
-
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.header2{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.header3{
+  display: flex;
+  justify-content: space-evenly;
+}
 .apresentacao {
   display: flex;
   justify-content: center;
@@ -74,8 +87,8 @@ body{
   border-radius: 8px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* sombra */
   padding: 20px 30px; /* padding top e bottom de 20px, left e right de 30px */
-  width: 900px; /* largura máxima */
-  height: 200px; /* altura */
+  width: 350px; /* largura máxima */
+  height: 300px; /* altura */
   text-align: left; /* alinhamento à esquerda */
   cursor: pointer;
   transition: box-shadow 0.3s ease; /* transição para hover */
@@ -116,8 +129,8 @@ body{
   border-radius: 8px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* sombra */
   padding: 20px 30px; /* padding top e bottom de 20px, left e right de 30px */
-  width: 900px; /* largura máxima */
-  height: 200px; /* altura */
+  width: 350px; /* largura máxima */
+  height: 300px; /* altura */
   text-align: left; /* alinhamento à esquerda */
   cursor: pointer;
   transition: box-shadow 0.3s ease; /* transição para hover */
@@ -156,8 +169,8 @@ body{
   border-radius: 8px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* sombra */
   padding: 20px 30px; /* padding top e bottom de 20px, left e right de 30px */
-  width: 900px; /* largura máxima */
-  height: 200px; /* altura */
+  width: 350px; /* largura máxima */
+  height: 300px; /* altura */
   text-align: left; /* alinhamento à esquerda */
   cursor: pointer;
   transition: box-shadow 0.3s ease; /* transição para hover */
@@ -197,8 +210,8 @@ body{
   border-radius: 8px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* sombra */
   padding: 20px 30px; /* padding top e bottom de 20px, left e right de 30px */
-  width: 900px; /* largura máxima */
-  height: 200px; /* altura */
+  width: 350px; /* largura máxima */
+  height: 300px; /* altura */
   text-align: left; /* alinhamento à esquerda */
   cursor: pointer;
   transition: box-shadow 0.3s ease; /* transição para hover */
@@ -238,8 +251,8 @@ body{
   border-radius: 8px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* sombra */
   padding: 20px 30px; /* padding top e bottom de 20px, left e right de 30px */
-  width: 900px; /* largura máxima */
-  height: 200px; /* altura */
+  width: 350px; /* largura máxima */
+  height: 300px; /* altura */
   text-align: left; /* alinhamento à esquerda */
   cursor: pointer;
   transition: box-shadow 0.3s ease; /* transição para hover */
@@ -279,8 +292,8 @@ body{
   border-radius: 8px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* sombra */
   padding: 20px 30px; /* padding top e bottom de 20px, left e right de 30px */
-  width: 900px; /* largura máxima */
-  height: 200px; /* altura */
+  width: 350px; /* largura máxima */
+  height: 300px; /* altura */
   text-align: left; /* alinhamento à esquerda */
   cursor: pointer;
   transition: box-shadow 0.3s ease; /* transição para hover */
@@ -320,8 +333,8 @@ body{
   border-radius: 8px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* sombra */
   padding: 20px 30px; /* padding top e bottom de 20px, left e right de 30px */
-  width: 900px; /* largura máxima */
-  height: 200px; /* altura */
+  width: 350px; /* largura máxima */
+  height: 300px; /* altura */
   text-align: left; /* alinhamento à esquerda */
   cursor: pointer;
   transition: box-shadow 0.3s ease; /* transição para hover */
@@ -361,8 +374,8 @@ body{
   border-radius: 8px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* sombra */
   padding: 20px 30px; /* padding top e bottom de 20px, left e right de 30px */
-  width: 900px; /* largura máxima */
-  height: 200px; /* altura */
+  width: 350px; /* largura máxima */
+  height: 300px; /* altura */
   text-align: left; /* alinhamento à esquerda */
   cursor: pointer;
   transition: box-shadow 0.3s ease; /* transição para hover */
