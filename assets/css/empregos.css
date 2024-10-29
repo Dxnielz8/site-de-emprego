@@ -60,26 +60,12 @@ body{
      filter: brightness(0) saturate(100%) invert(25%) sepia(100%) saturate(1200%) hue-rotate(335deg) brightness(95%) contrast(100%);
   }
 /*=========== descriçao ===========*/
-.meu-input {
-  border: none; /* Remove a borda */
-  background: transparent; /* Remove o fundo */
-  outline: none; /* Remove o contorno ao focar */
-  /* Outros estilos que você pode querer */
-  padding: 10px; /* Adiciona um pouco de espaçamento */
-  font-size: 16px; /* Ajusta o tamanho da fonte */
-  background-color: #be3144;
-  border-radius: 10px;
-  
-}
-input{
-  display: n;
-}
+
 
 .apresentacao {
   display: flex;
   justify-content: center;
   margin-top: 100px;
-  cursor: pointer;
 }
 
 .botao1 {
@@ -89,17 +75,17 @@ input{
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* sombra */
   padding: 20px 30px; /* padding top e bottom de 20px, left e right de 30px */
   width: 900px; /* largura máxima */
-  height: 200px;
+  height: 200px; /* altura */
   text-align: left; /* alinhamento à esquerda */
   cursor: pointer;
   transition: box-shadow 0.3s ease; /* transição para hover */
-  z-index: -1;
 }
 
 .botao1:hover {
-  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* sombra ao passar o mouse */
-  cursor: pointer;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3); /* sombra ao passar o mouse */
 }
+
+
 
 .botao1 h2 {
   font-size: 1.5em;
@@ -121,8 +107,7 @@ input{
 .apresentacao2 {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
-  cursor: pointer;
+  margin-top: 100px;
 }
 
 .botao2 {
@@ -132,15 +117,14 @@ input{
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* sombra */
   padding: 20px 30px; /* padding top e bottom de 20px, left e right de 30px */
   width: 900px; /* largura máxima */
-  height: 200px;
+  height: 200px; /* altura */
   text-align: left; /* alinhamento à esquerda */
   cursor: pointer;
   transition: box-shadow 0.3s ease; /* transição para hover */
-  z-index: -1;
 }
+
 .botao2:hover {
-  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* sombra ao passar o mouse */
-  cursor: pointer;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3); /* sombra ao passar o mouse */
 }
 
 .botao2 h2 {
@@ -163,8 +147,7 @@ input{
 .apresentacao3 {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
-  cursor: pointer;
+  margin-top: 100px;
 }
 
 .botao3 {
@@ -174,15 +157,14 @@ input{
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* sombra */
   padding: 20px 30px; /* padding top e bottom de 20px, left e right de 30px */
   width: 900px; /* largura máxima */
-  height: 200px;
+  height: 200px; /* altura */
   text-align: left; /* alinhamento à esquerda */
   cursor: pointer;
   transition: box-shadow 0.3s ease; /* transição para hover */
-  z-index: -1;
 }
+
 .botao3:hover {
-  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* sombra ao passar o mouse */
-  cursor: pointer;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3); /* sombra ao passar o mouse */
 }
 
 .botao3 h2 {
@@ -206,8 +188,7 @@ input{
 .apresentacao4 {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
-  cursor: pointer;
+  margin-top: 100px;
 }
 
 .botao4 {
@@ -217,15 +198,14 @@ input{
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* sombra */
   padding: 20px 30px; /* padding top e bottom de 20px, left e right de 30px */
   width: 900px; /* largura máxima */
-  height: 200px;
+  height: 200px; /* altura */
   text-align: left; /* alinhamento à esquerda */
   cursor: pointer;
   transition: box-shadow 0.3s ease; /* transição para hover */
-  z-index: -1;
 }
+
 .botao4:hover {
-  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* sombra ao passar o mouse */
-  cursor: pointer;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3); /* sombra ao passar o mouse */
 }
 
 .botao4 h2 {
@@ -249,8 +229,7 @@ input{
 .apresentacao5 {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
-  cursor: pointer;
+  margin-top: 100px;
 }
 
 .botao5 {
@@ -260,15 +239,14 @@ input{
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* sombra */
   padding: 20px 30px; /* padding top e bottom de 20px, left e right de 30px */
   width: 900px; /* largura máxima */
-  height: 200px;
+  height: 200px; /* altura */
   text-align: left; /* alinhamento à esquerda */
   cursor: pointer;
   transition: box-shadow 0.3s ease; /* transição para hover */
-  z-index: -1;
 }
+
 .botao5:hover {
-  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* sombra ao passar o mouse */
-  cursor: pointer;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3); /* sombra ao passar o mouse */
 }
 
 .botao5 h2 {
@@ -292,8 +270,7 @@ input{
 .apresentacao6 {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
-  cursor: pointer;
+  margin-top: 100px;
 }
 
 .botao6 {
@@ -303,15 +280,14 @@ input{
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* sombra */
   padding: 20px 30px; /* padding top e bottom de 20px, left e right de 30px */
   width: 900px; /* largura máxima */
-  height: 200px;
+  height: 200px; /* altura */
   text-align: left; /* alinhamento à esquerda */
   cursor: pointer;
   transition: box-shadow 0.3s ease; /* transição para hover */
-  z-index: -1;
 }
+
 .botao6:hover {
-  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* sombra ao passar o mouse */
-  cursor: pointer;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3); /* sombra ao passar o mouse */
 }
 
 .botao6 h2 {
@@ -335,8 +311,7 @@ input{
 .apresentacao7 {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
-  cursor: pointer;
+  margin-top: 100px;
 }
 
 .botao7 {
@@ -346,15 +321,14 @@ input{
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* sombra */
   padding: 20px 30px; /* padding top e bottom de 20px, left e right de 30px */
   width: 900px; /* largura máxima */
-  height: 200px;
+  height: 200px; /* altura */
   text-align: left; /* alinhamento à esquerda */
   cursor: pointer;
   transition: box-shadow 0.3s ease; /* transição para hover */
-  z-index: -1;
 }
+
 .botao7:hover {
-  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* sombra ao passar o mouse */
-  cursor: pointer;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3); /* sombra ao passar o mouse */
 }
 
 .botao7 h2 {
@@ -378,8 +352,7 @@ input{
 .apresentacao8 {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
-  cursor: pointer;
+  margin-top: 100px;
 }
 
 .botao8 {
@@ -389,15 +362,14 @@ input{
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* sombra */
   padding: 20px 30px; /* padding top e bottom de 20px, left e right de 30px */
   width: 900px; /* largura máxima */
-  height: 200px;
+  height: 200px; /* altura */
   text-align: left; /* alinhamento à esquerda */
   cursor: pointer;
   transition: box-shadow 0.3s ease; /* transição para hover */
-  z-index: -1;
 }
+
 .botao8:hover {
-  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* sombra ao passar o mouse */
-  cursor: pointer;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3); /* sombra ao passar o mouse */
 }
 
 .botao8 h2 {
@@ -417,178 +389,7 @@ input{
   color: #666;
   margin: 5px 0;
 }
-/*========== tela sobe ==========*/
- .segunda-tela {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: whitesmoke;
-  /* margin-top: 46rem faz com que o elemento fique no final da tela */
-  margin-top: 46rem;
-  z-index: 10;
-}
 
-.fechar1 {
-  position: absolute;
-  top: 80px;
-  right: 1rem;
-  font-size: 20px;
-  cursor: pointer;
-  z-index: 10;
-  text-decoration: none;
-}
-
-.terceira-tela {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: whitesmoke;
-  margin-top: 46rem;
-}
-
-.fechar2 {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  font-size: 20px;
-  cursor: pointer;
-  z-index: 10;
-}
-
-.quarta-tela {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: whitesmoke;
-  /* margin-top: 46rem faz com que o elemento fique no final da tela */
-  margin-top: 46rem;
-  z-index: 10;
-}
-.fechar3 {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  font-size: 20px;
-  cursor: pointer;
-  z-index: 10;
-}
-
-.quinta-tela {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: whitesmoke;
-  margin-top: 46rem;
-}
-
-.fechar4 {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  font-size: 20px;
-  cursor: pointer;
-  z-index: 10;
-}
-
-.sexta-tela {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: whitesmoke;
-  /* margin-top: 46rem faz com que o elemento fique no final da tela */
-  margin-top: 46rem;
-  z-index: 10;
-}
-.fechar5 {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  font-size: 20px;
-  cursor: pointer;
-  z-index: 10;
-}
-
-.setima-tela {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: whitesmoke;
-  margin-top: 46rem;
-}
-
-.fechar6 {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  font-size: 20px;
-  cursor: pointer;
-  z-index: 10;
-}
-
-.oitava-tela {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: whitesmoke;
-  /* margin-top: 46rem faz com que o elemento fique no final da tela */
-  margin-top: 46rem;
-  z-index: 10;
-}
-.fechar7 {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  font-size: 20px;
-  cursor: pointer;
-  z-index: 10;
-}
-
-.nona-tela {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: whitesmoke;
-  margin-top: 46rem;
-}
-
-.fechar8 {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  font-size: 20px;
-  cursor: pointer;
-  z-index: 10;
-}
-
-
-/* Essa classe faz com que o elemento fique posicionado no inicio da página */
-.show {
-  margin-top: -19rem;
-  animation: slideUp 1s;
-}
-
-/* Essa classe faz com que o elemento não fique visível na página */
-.hidden {
-  display: none;
-}
-
-/* Keyframes é onde você vai editar a sua animação */
-@keyframes slideUp {
-  from {
-    margin-top: 46rem;
-  }
-  to {
-    margin-top: 0;
-  }
-}
 /*========== foooter ===========*/
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
